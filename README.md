@@ -17,6 +17,7 @@ maven test harness dependencies that I have yet to resolve.
 
 To use add this plug-in config to the build section of your pom.
 
+```xml
     <plugin>
       <groupId>org.kevinhcross.maven</groupId>
       <artifactId>repo_clean</artifactId>
@@ -37,3 +38,4 @@ To use add this plug-in config to the build section of your pom.
         </execution>
       </executions>
     </plugin>
+```
