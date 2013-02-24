@@ -17,23 +17,23 @@ maven test harness dependencies that I have yet to resolve.
 
 To use add this plug-in config to the build section of your pom.
 
-			<plugin>
-				<groupId>org.kevinhcross.maven</groupId>
-				<artifactId>repo_clean</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
-				<configuration>
-					<relativeRepoPaths>
-						<string>org/kevinhcross</string>
-						<string>com/kevinhcross</string>
-            <string>org/apache/maven</string>
-					</relativeRepoPaths>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>clean</phase>
-						<goals>
-							<goal>clean-metadata</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+    <plugin>
+      <groupId>org.kevinhcross.maven</groupId>
+      <artifactId>repo_clean</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <configuration>
+        <relativeRepoPaths>
+          <string>org/kevinhcross</string>
+          <string>com/kevinhcross</string>
+          <string>org/apache/maven</string>
+        </relativeRepoPaths>
+      </configuration>
+      <executions>
+        <execution>
+          <phase>clean</phase>
+          <goals>
+            <goal>clean-metadata</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
