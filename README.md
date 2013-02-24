@@ -17,6 +17,8 @@ maven test harness dependencies that I have yet to resolve.
 
 To use add this plug-in config to the build section of your pom.
 
+_Note that you should change the `relativeRepoPaths` section to the paths you want to clean._
+
 ```xml
     <plugin>
       <groupId>org.kevinhcross.maven</groupId>
