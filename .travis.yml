@@ -3,6 +3,5 @@ language: java
 script: mvn clean install -U
 
 jdk:
-  - openjdk7
   - oraclejdk7
 
