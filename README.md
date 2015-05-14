@@ -1,6 +1,8 @@
 maven_repo_clean
 ================
 
+[![Build Status](https://travis-ci.org/kevinhcross/maven_repo_clean.svg?branch=master)](https://travis-ci.org/kevinhcross/maven_repo_clean)
+
 A maven plug-in designed as a short term workaround for the maven bug MNG-4142.
 
 It will check all the maven-metadata-local.xml files in the supplied paths of
