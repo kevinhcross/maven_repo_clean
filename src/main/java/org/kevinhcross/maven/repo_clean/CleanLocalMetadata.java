@@ -54,8 +54,9 @@ public class CleanLocalMetadata extends AbstractMojo {
 			File searchBase = new File(repoBaseDir.getAbsoluteFile()
 					+ File.separator + relPath);
 			getLog().info("Checking files in: " + searchBase);
-			findTargetFiles(searchBase, TARGET_FILE_NAME);
-
+			if(searchBase.exists() && searchBase.isDirectory()) {
+				findTargetFiles(searchBase, TARGET_FILE_NAME);
+			}
 		}
 		for (File targetFile : targetFiles) {
 			try {
