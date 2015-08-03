@@ -3,7 +3,7 @@
 
 	<groupId>org.kevinhcross.maven</groupId>
 	<artifactId>repo_clean</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>repo_clean Maven Plugin</name>
